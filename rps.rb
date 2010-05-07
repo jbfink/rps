@@ -47,12 +47,6 @@ module Couch
       req.body = json
       request(req)
     end
-def post(uri, json)
-      req = Net::HTTP::Post.new(uri)
-      req["content-type"] = "application/json"
-      req.body = json
-      request(req)
-    end
 
     def request(req)
       res = Net::HTTP.start(@host, @port) { |http|http.request(req) }
