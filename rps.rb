@@ -1,5 +1,4 @@
-
-#
+#!/usr/bin/ruby
 #rock paper scissors!!
 #FIGHT!!!!
 #(an aside: this is a program I wrote to simulate rock paper scissors
@@ -14,6 +13,7 @@
 #WITHOUT ANY WARRANTY; without even the implied warranty of
 #MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
 #General Public License for more details.
+
 
 
 def rochambo(userchoice, computerchoice)
