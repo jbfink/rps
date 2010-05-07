@@ -88,6 +88,9 @@ else puts "WTF?"
 end
 end
 
+#put some logic in here so that if we don't have a couchdb it doesn't mess things up?
+server = Couch::Server.new("localhost", "5984")
+
 choices = %w{R P S}
 puts "Your choice? R,P,S"
 userchoice = gets.chomp.upcase
