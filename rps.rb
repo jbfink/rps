@@ -84,6 +84,10 @@ end
 
 #put some logic in here so that if we don't have a couchdb it doesn't mess things up?
 server = Couch::Server.new("localhost", "5984")
+#what's in the box?
+res = server.get("/rps/stats")
+json = res.body
+puts json
 
 choices = %w{R P S}
 puts "Your choice? R,P,S"
