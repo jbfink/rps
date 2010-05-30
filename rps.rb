@@ -88,6 +88,9 @@ server = Couch::Server.new("localhost", "5984")
 res = server.get("/rps/stats")
 json = res.body
 puts json
+#couldn't be this easy, right?
+jsonarray = json.to_a
+puts jsonarray
 
 choices = %w{R P S}
 puts "Your choice? R,P,S"
