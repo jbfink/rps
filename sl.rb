@@ -19,7 +19,7 @@ require 'adrbox'
 
 
 choices = %w{R P S O L}
-puts "Your choice? R,P,S,spOck,L"
+puts "Your choice? (R)ock,(P)aper,(S)cissors,Sp(O)ck,(L)izard"
 userchoice = gets.chomp.upcase
 #raise unless choices.include?(userchoice)  # or something like that
 unless choices.include?userchoice
