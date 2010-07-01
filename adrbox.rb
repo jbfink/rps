@@ -12,6 +12,19 @@
 #along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 module Adrbox
+#let's put array stuff here, or try to!
+rlose = %w{P O}
+rwin = %w{S L}
+plose = %w{S L}
+pwin = %w{R O}
+slose = %w{R O}
+swin = %w{P L}
+olose = %w{P L}
+owin = %w{R S}
+llose = %w{S R}
+lwin = %w{P O}
+
+
 def Adrbox.rochambo(userchoice, computerchoice)
 losemessage = "You lose!"
 winmessage = "You win!"
