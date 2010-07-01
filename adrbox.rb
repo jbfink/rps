@@ -13,15 +13,11 @@
 
 module Adrbox
 #let's put array stuff here, or try to!
-rlose = %w{P O}
+#wait, I don't *need* loses.  A loss is anything A) not in win AND not equal to guess.  Right?
 rwin = %w{S L}
-plose = %w{S L}
 pwin = %w{R O}
-slose = %w{R O}
 swin = %w{P L}
-olose = %w{P L}
 owin = %w{R S}
-llose = %w{S R}
 lwin = %w{P O}
 
 
