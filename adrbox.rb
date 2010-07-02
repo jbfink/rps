@@ -29,15 +29,15 @@ winmessage = "You win!"
 tiemessage = "You tie!"
 if userchoice == computerchoice then puts tiemessage
 elsif userchoice == "R" then userarray = rwin
- if computerchoice.include?userarray then puts winmessage
+ if userarray.include?computerchoice then puts winmessage
  else puts losemessage
 end
 elsif userchoice == "P" then userarray = pwin
-if computerchoice.include?userarray then puts winmessage
+if userarray.include?computerchoice then puts winmessage
  else puts losemessage
 end
 elsif userchoice == "S" then userarray = swin
-if computerchoice.include?userarray then puts winmessage
+if userarray.include?computerchoice then puts winmessage
  else puts losemessage
 end
 
