@@ -14,12 +14,8 @@
 module Adrbox
 #let's put array stuff here, or try to!
 #wait, I don't *need* loses.  A loss is anything A) not in win AND not equal to guess.  Right?
-rwin = %w{S L}
-pwin = %w{R O}
-swin = %w{P L}
-owin = %w{R S}
-lwin = %w{P O}
-
+# array go *inside* functions or they can't get asked, right? but maybe this would be a good place to mess
+#with mixins/inheritance?
 
 def Adrbox.rochambo(userchoice, computerchoice)
 rwin = %w{S L}
