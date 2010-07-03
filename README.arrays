@@ -1,3 +1,5 @@
 The way that I am doing the logic now is wasteful and stupid!  Convert it to something like this:
 
 each object (R,P,S,O,L) contains two arrays.  A win array (e.g. R wins against S and L) and a lose array (e.g. R loses against P and O).  That way both the SL and RPS variants can call the same function and hopefully it will look less grotendous.
+
+7/2010 -- fixed! Plus using an eval to automagically grab the right userarray.  I am officially pleased with myself.
