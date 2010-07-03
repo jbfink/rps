@@ -27,24 +27,13 @@ lwin = %w{P O}
 losemessage = "You lose!"
 winmessage = "You win!"
 tiemessage = "You tie!"
+userarray = eval userchoice.downcase+"win"
 if userchoice == computerchoice then puts tiemessage
-elsif userchoice == "R" then userarray = rwin
- if userarray.include?computerchoice then puts winmessage
+ elsif userarray.include?computerchoice then puts winmessage
  else puts losemessage
 end
-elsif userchoice == "P" then userarray = pwin
-if userarray.include?computerchoice then puts winmessage
- else puts losemessage
-end
-elsif userchoice == "S" then userarray = swin
-if userarray.include?computerchoice then puts winmessage
- else puts losemessage
 end
 
-
-else puts "WTF?"
-end
-end
 def Adrbox.spocklizard(userchoice, computerchoice)
 losemessage = "You lose!"
 winmessage = "You win!"
