@@ -31,4 +31,4 @@ puts "You picked " + userchoice + "!"
 puts "Computer picked " + computerchoice + "!"
 puts
 puts "FIGHT!"
-Adrbox.spocklizard(userchoice, computerchoice)
+Adrbox.rochambo(userchoice, computerchoice)
