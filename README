@@ -2,9 +2,8 @@ A couple of years ago I was trying to teach myself ruby.  This Rock, Paper, Scis
 
 I still love it though.  I mean, I *made* it.  Myself.  Me!  And it works!  And now, I give it to you!
 
-Some additional ideas: 
-
+Some additional ideas for couch branch: 
 * Use CouchDB to track number of times played, wins, losses and ties
   * so far I have been defining the couchdb layout in the web interface, but remind me to do something in the actual script to test/create.
- 
 
+06/2010 -- wow, I've done a fair amount of hacking on this, at least for me.  Separated out the game logic to put into another file and module, changed rps.rb to reflect that, and then added a new script for the Rock-Paper-Scissors-Spock-Lizard variant. Phew!
