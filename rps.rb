@@ -1,4 +1,4 @@
-#!/usr/bin/ruby
+#!/usr/bin/ruby -w
 #rock paper scissors!!
 #FIGHT!!!!
 #This program is free software: you can redistribute it and/or modify
@@ -14,6 +14,8 @@
 #You should have received a copy of the GNU General Public License
 #along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+require 'rubygems'
+require 'backports'
 require 'adrbox'
 
 
@@ -26,7 +28,7 @@ unless choices.include?userchoice
 puts "You must input R, P, S!!!"
  exit
 end
-computerchoice = choices[rand(choices.length)]
+computerchoice = choices.sample
 puts "You picked " + userchoice + "!"
 puts "Computer picked " + computerchoice + "!"
 puts
