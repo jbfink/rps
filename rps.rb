@@ -15,8 +15,8 @@
 #along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 require 'rubygems'
-require 'backports'
-require 'adrbox'
+#require 'backports'
+require './adrbox.rb'
 
 
 
