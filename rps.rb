@@ -28,6 +28,7 @@ unless choices.include?userchoice
 puts "You must input R, P, S!!!"
  exit
 end
+#note that Array#sample method requires 1.9. But isn't it much nicer?
 computerchoice = choices.sample
 puts "You picked " + userchoice + "!"
 puts "Computer picked " + computerchoice + "!"
