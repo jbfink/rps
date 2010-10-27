@@ -21,8 +21,8 @@
 require './adrbox.rb'
 
 if RUBY_VERSION.to_f < 1.9 
-then puts "dude. update to 1.9. okay?"
-exit
+then require 'rubygems'
+require 'backports'
 end
 
 choices = %w{R P S}
