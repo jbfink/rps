@@ -1,4 +1,4 @@
-#!/usr/bin/ruby -w
+#!/usr/bin/env ruby
 #rock paper scissors!!
 #FIGHT!!!!
 #This program is free software: you can redistribute it and/or modify
@@ -14,9 +14,11 @@
 #You should have received a copy of the GNU General Public License
 #along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-require 'rubygems'
-require 'backports'
-require 'adrbox'
+#1.9 does not require gems/backports for sample!
+#eliminating them makes it way speedier.
+#require 'rubygems'
+#require 'backports'
+require './adrbox.rb'
 
 
 

@@ -1,4 +1,4 @@
-#!/usr/bin/ruby
+#!/usr/bin/env ruby
 #rock paper scissors spock lizard!!!
 #FIGHT!!!!
 #This program is free software: you can redistribute it and/or modify
@@ -14,7 +14,7 @@
 #You should have received a copy of the GNU General Public License
 #along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-require 'adrbox'
+require './adrbox.rb'
 
 
 
@@ -26,7 +26,7 @@ unless choices.include?userchoice
 puts "You must input R, P, S, O or L!!!"
  exit
 end
-computerchoice = choices[rand(choices.length)]
+computerchoice = choices.sample
 puts "You picked " + userchoice + "!"
 puts "Computer picked " + computerchoice + "!"
 puts
